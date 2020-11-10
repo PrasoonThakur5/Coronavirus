@@ -86,7 +86,7 @@ fig4 = make_subplots(
 fig4.add_trace(
     go.Scatter(
         x=india_data["State"],
-        y=india_data["Test positivity rate"],
+        y=india_data["Positive"],
         mode="lines",
         name="Positivity Rate"
     ),
